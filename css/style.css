@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(238, 233, 233);
+}
+
+header{
+    padding: 20px 70px;
+    background: #1d1d1f;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation .logo{
+    width: 50px;
+}
+
+.navigation ul{border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navigation ul li a{
+    color: #8888;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navigation ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.navigation .check{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/* ---- Terminado Cabeçalho ---- */
+
